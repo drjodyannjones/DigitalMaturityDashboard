@@ -46,14 +46,6 @@
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "ForEach1",
-				"type": "ForEach",
-				"dependsOn": [],
-				"typeProperties": {
-					"isSequential": false
-				}
 			}
 		],
 		"annotations": []
