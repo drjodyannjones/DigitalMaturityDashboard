@@ -1,0 +1,19 @@
+{
+	"name": "bronze_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_dmdterraformbackend",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "bronze",
+				"fileSystem": "dmdfs"
+			}
+		},
+		"schema": {}
+	}
+}
