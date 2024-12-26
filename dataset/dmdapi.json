@@ -1,0 +1,12 @@
+{
+	"name": "dmdapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dmdapilinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
