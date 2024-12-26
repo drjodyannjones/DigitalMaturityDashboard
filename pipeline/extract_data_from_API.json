@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "RestSource",
-						"httpRequestTimeout": "",
+						"httpRequestTimeout": "00:10:00",
 						"requestMethod": "GET",
 						"paginationRules": {
 							"supportRFC5988": "true"
