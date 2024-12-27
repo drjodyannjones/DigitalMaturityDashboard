@@ -8,7 +8,7 @@
 		"annotations": [],
 		"type": "RestResource",
 		"typeProperties": {
-			"relativeUrl": "/api/Indices?indicador=1"
+			"relativeUrl": "/api/Indices?indicador=3"
 		},
 		"schema": []
 	}
