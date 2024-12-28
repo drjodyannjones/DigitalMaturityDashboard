@@ -1,0 +1,12 @@
+{
+	"name": "dmd_api_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dmdapilinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
