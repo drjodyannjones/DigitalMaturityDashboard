@@ -2,7 +2,9 @@
 	"name": "dmd-datafactory",
 	"properties": {
 		"globalConfigurations": {
-			"PipelineBillingEnabled": "true"
+			"PipelineBillingEnabled": "true",
+			"factoryStagingLSReferenceName": "ls_adls_dmdterraformbackend",
+			"factoryStagingLSType": "LinkedServiceReference"
 		}
 	},
 	"location": "eastus"
