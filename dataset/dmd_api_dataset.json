@@ -5,14 +5,13 @@
 			"referenceName": "dmdapilinkedservice",
 			"type": "LinkedServiceReference"
 		},
-		"annotations": [],
-		"type": "RestResource",
-		"typeProperties": {
-			"relativeUrl": {
-				"value": "@pipeline().parameters.indicador",
-				"type": "Expression"
+		"parameters": {
+			"indicador": {
+				"type": "String"
 			}
 		},
+		"annotations": [],
+		"type": "RestResource",
 		"schema": []
 	}
 }
