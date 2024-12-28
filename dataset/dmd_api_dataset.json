@@ -7,6 +7,12 @@
 		},
 		"annotations": [],
 		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "@pipeline().parameters.indicador",
+				"type": "Expression"
+			}
+		},
 		"schema": []
 	}
 }
